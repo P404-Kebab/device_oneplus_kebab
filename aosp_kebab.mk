@@ -24,8 +24,10 @@ $(call inherit-product, device/oneplus/kebab/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 PEX_BUILD_TYPE := OFFICIAL
-PEX_MAINTAINER := Rounak1619
 EXTRA_FOD_ANIMATIONS := true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.pex.build_maintainer=Rounak1619
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
