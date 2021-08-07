@@ -250,7 +250,7 @@ vendor/etc/init/vendor.oneplus.hardware.display@1.0-service.rc|03b0c962b97fc6cfb
 vendor/lib64/libhdr_tm.so|14635cd98456467c81978da902e644ee83dc86cb
 
 # Display (HWC) - from OnePlus 9R
-vendor/bin/hw/vendor.qti.hardware.display.composer-service|09c6c2a6c60182b67d579e8b7839bd6d8a4c58f9
+vendor/bin/hw/vendor.qti.hardware.display.composer-service|838c0e1c652ec689e015be8ab9a690d044ea33a8
 vendor/lib64/libsdmcore.so|0c58e5c40641f958cf1f19633a1333626284db82
 vendor/lib64/libsdmutils.so|e657238d635309045054832ca97de58399dd9833
 
@@ -289,31 +289,50 @@ vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
-# Iris - from - OnePlus 9R
+# Iris - from OnePlus 9R
 vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service|268ab959ac1202151581e84ec40df1359eb02ff8
-vendor/etc/inparm/irissoft/inParm1.txt|8ab289abfbbfdc0af0f005bdb5137d1f7c799976
-vendor/etc/inparm/irissoft/inParm10.txt|84801d6e89452649d39ed6f7158df7accb76fc4a
-vendor/etc/inparm/irissoft/inParm11.txt|88c64706cf77a2d21c49580e9518c6fc12e1ed22
-vendor/etc/inparm/irissoft/inParm12.txt|cc9ee60b061acc869fa8ca5bed9113e6324483df
-vendor/etc/inparm/irissoft/inParm13.txt|477a8d155cd9bd1d22738ac2c7700df58821e658
-vendor/etc/inparm/irissoft/inParm14.txt|e5bc1a880672258a775bcccfdda7fe23bca0158d
-vendor/etc/inparm/irissoft/inParm15.txt|297c438a3f7af27c4487e7da287c80ea0a6bc269
-vendor/etc/inparm/irissoft/inParm16.txt|75f012b5ac22cc47d29adc19e4a75eb8eb42ed45
-vendor/etc/inparm/irissoft/inParm17.txt|5414563102879892a1c479d6aadf83a62a57d146
-vendor/etc/inparm/irissoft/inParm18.txt|4cab413373b445474e0eb0123ede0eaa55dea5de
-vendor/etc/inparm/irissoft/inParm2.txt|1535076e654b00bef630108e4fa3da07110a0d39
-vendor/etc/inparm/irissoft/inParm3.txt|85c071b86316f0306ae86231aa32829344645361
-vendor/etc/inparm/irissoft/inParm4.txt|bdb16a8071fbfd4d2a04e6d3e07d65b3eaa55d50
-vendor/etc/inparm/irissoft/inParm5.txt|71f5a494e3789543ebc4e4b4f34d63a240042224
-vendor/etc/inparm/irissoft/inParm6.txt|92d91035a81dae030afc30722251db6c0681d51c
-vendor/etc/inparm/irissoft/inParm7.txt|e97a58745e6138fabe21a15d0c17e895094045f4
-vendor/etc/inparm/irissoft/inParm8.txt|c60ea733692684bbbb9d321f30d61e46ebad0652
-vendor/etc/inparm/irissoft/inParm9.txt|d1a8a0a634beda13d7bcac0acdc20840a2a30138
-vendor/etc/irissoft.fw|ccfb5902e0838690bef7a86b39b82ff17bb2728d
 vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service|59cc48cabb361a0d1e7edea78184cd6a76e04298
 vendor/etc/init/vendor.pixelworks.hardware.display.iris-service.rc|b1fdaffcf7cfc2eb41c8030d085779b95600dced
 vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc|ba2a30c457151c6af8881b18886f80a26d1881f1
+vendor/etc/inparm/irissoft/inParm.lst|b58c7024a95a1ca518f1950936aa913aa3d60e55
+vendor/etc/inparm/irissoft/inParm1_center.txt|3d7ab7ae0b15bb7d4ad43b3a311e06dfb85172ce
+vendor/etc/inparm/irissoft/inParm1_down.txt|612739f493209f7e38825d8a99a3c025fec6a244
+vendor/etc/inparm/irissoft/inParm1_up.txt|1e6704776128827c2114102083724154eee888b7
+vendor/etc/inparm/irissoft/inParm2_center.txt|06d207e81a292f40205c6f2d1dc4c4d180ed09aa
+vendor/etc/inparm/irissoft/inParm2_down.txt|9023f63d46409475bfe88c3b81fe2e31eb0d9c14
+vendor/etc/inparm/irissoft/inParm2_up.txt|272e5d4af6bf7fd1cf6b85ec40b523ffaf1f3608
+vendor/etc/inparm/irissoft/inParm3_center.txt|b10127930e5272a28cc2d7db47e0750f7c8ef427
+vendor/etc/inparm/irissoft/inParm3_down.txt|be7bf91bf11a95dace2523ba9a8ef4ba16a4ddfe
+vendor/etc/inparm/irissoft/inParm3_up.txt|a961194a70430a90792dc4b25dfaad0960f2282e
+vendor/etc/inparm/irissoft/inParm4_center.txt|48029c1317824ae084f4684020b5093bf94ce035
+vendor/etc/inparm/irissoft/inParm4_down.txt|bdc904d8b51f718dd5473927f68e8ad8a002467f
+vendor/etc/inparm/irissoft/inParm4_up.txt|ec669559b8b8350716d1d029a59407142bc5e95f
+vendor/etc/inparm/irissoft/inParm5_center.txt|2d9f24b1da9490193ea526a6e985c0062d2dd34c
+vendor/etc/inparm/irissoft/inParm5_down.txt|14c099cc7065521c0338a12caefef74999329892
+vendor/etc/inparm/irissoft/inParm5_up.txt|d73b766fcacb18af07d2b423ca7413c0ec23f227
+vendor/etc/inparm/irissoft/inParm6_center.txt|1059aa9eae152bbe7afa1306fb33a6293aed12f8
+vendor/etc/inparm/irissoft/inParm6_down.txt|2cf36ce6d4a6f2cb38e27ac594534b49a55164cb
+vendor/etc/inparm/irissoft/inParm6_up.txt|0d1948cfa3394e2de7d012c5b3f7f6cb350f667f
+vendor/etc/inparm/irissoft/inParm8_a.txt|1bf740e4aa306460af87df5367ca1270467ddc4b
+vendor/etc/inparm/irissoft/inParm8_b.txt|c889524d438ca8e91450ba0b3903fd3513fabbe4
+vendor/etc/inparm/irissoft/inParm8_c.txt|5c62eafba36428f3bce04ce8da7c589925f34746
+vendor/etc/inparm/irissoft/inParm10.txt|84801d6e89452649d39ed6f7158df7accb76fc4a
+vendor/etc/inparm/irissoft/inParm11.txt|88c64706cf77a2d21c49580e9518c6fc12e1ed22
+vendor/etc/inparm/irissoft/inParm12.txt|cc9ee60b061acc869fa8ca5bed9113e6324483df
+vendor/etc/inparm/irissoft/inParm14_a.txt|93c8fd5d2ad96fa426cf2f6d3e355457fcfe2916
+vendor/etc/inparm/irissoft/inParm14_b.txt|01a2d5eaeab512281c9d420fb486fdcaa4a2b341
+vendor/etc/inparm/irissoft/inParm14_c.txt|a4812ce9a2b7a8ca49fbe2a7b0aa2ac706061f20
+vendor/etc/inparm/irissoft/inParm16_center.txt|4b983e815c7262a0d7ee67c987cf80f38c970a81
+vendor/etc/inparm/irissoft/inParm16_down.txt|65c87c096d4c9cfe35010177380115dd1c6f14f6
+vendor/etc/inparm/irissoft/inParm16_up.txt|4ca33535cc5e6dcdefe4298b5a536e5f9fc504f3
+vendor/etc/inparm/irissoft/inParm17_center.txt|e0e75ead150ff44a014560cd0d2d3e2d7c8aaac7
+vendor/etc/inparm/irissoft/inParm17_down.txt|e16cd2e5bf63b4867f1a281ba840d06186ada03f
+vendor/etc/inparm/irissoft/inParm17_up.txt|eebf6ebc6864965c632f6035a01b695a1d1c3589
+vendor/etc/inparm/irissoft/inParm18_center.txt|429f991ba1d6dfbfb788d60ea904c31967b8701d
+vendor/etc/inparm/irissoft/inParm18_down.txt|c728b6b172ad01de9bd6ae72d1ea81c683d0a865
+vendor/etc/inparm/irissoft/inParm18_up.txt|d6833be2f89773308a5d8f265a74a67e51f6e048
 vendor/etc/inparm/irissoft/mcfCheck.txt|6a08bb530c891b7393c614d23ee95152da3e7ed8
+vendor/etc/irissoft.fw|ccfb5902e0838690bef7a86b39b82ff17bb2728d
 -vendor/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml|a2ce7558c9b75f223c32120cf4d9f3a3720e12e0
 -vendor/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml|03e2bd611d843301566f053e77a544c9dfccb671
 vendor/lib64/libpwiriscalibrate.so|fac32eff5a1faedc76c61988b60799d304a85517
